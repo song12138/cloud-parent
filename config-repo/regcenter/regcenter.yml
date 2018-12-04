@@ -1,6 +1,8 @@
 server:
   port: 6666
 eureka:
+  instance:
+    hostname: regcenter
   server:
     enable-self-preservation: false
     eviction-interval-timer-in-ms: 10000
