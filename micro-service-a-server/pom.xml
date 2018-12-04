@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.sxf</groupId>
-    <artifactId>micro-service-a-server</artifactId>
+    <artifactId>micro-me.sxf.microservicebserver.service-a-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>micro-service-a-server</name>
+    <name>micro-me.sxf.microservicebserver.service-a-server</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -38,6 +38,16 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
         <dependency>

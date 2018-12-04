@@ -10,7 +10,7 @@ spring:
         git:
           #配置文件Git仓库地址
           uri: git://github.com/song12138/cloud-parent.git
-          search-paths: config-repo,config-repo/{application}
+          search-paths: config-repo/,config-repo/{application}
           #仓库需认证，则填写用户名
           username: song12138
           #仓库需认证，则填写密码
