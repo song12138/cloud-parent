@@ -1,9 +1,8 @@
 spring:
   application:
-    name: microserviceb
+    name: gateway
+
   cloud:
     config:
       #配置中心地址
       uri: http://localhost:8888
-
-

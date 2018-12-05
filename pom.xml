@@ -30,8 +30,9 @@
     <modules>
         <module>config-server</module>
         <module>reg-center-server</module>
-        <module>micro-me.sxf.microservicebserver.service-a-server</module>
-        <module>micro-me.sxf.microservicebserver.service-b-server</module>
+        <module>micro-service-a-server</module>
+        <module>micro-service-b-server</module>
+        <module>gateway-server</module>
     </modules>
 
 
